@@ -27,6 +27,13 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.antennule.test.MainActivity" />
         </activity>
+        <activity
+            android:name=".NewFragmentActivity"
+            android:label="@string/title_activity_new_fragment" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.antennule.test.MainActivity" />
+        </activity>
     </application>
 
 </manifest>
